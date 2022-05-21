@@ -1,0 +1,84 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.formulario{
+    max-width: 75%;
+    margin: auto;
+}
+
+.Listas {
+    display: flex;
+    justify-content: center;
+}
+
+
+#select1, #select2, #select3 {
+    width: 200px;  
+    padding: 5px;
+    margin: 10px 50px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
+h1, h5 {
+    text-align: center;
+}
+
+#uno{
+    background-color: beige;
+    width: 300px;
+    height: 420px;
+    border: solid 1px grey;
+   
+}
+
+#dos{
+    background-color:beige;
+    width: 300px;
+    height: 420px;
+    border: solid 1px grey;
+}
+
+#tres{
+    background-color:beige;
+    width: 300px;
+    height: 420px;
+    border: solid 1px grey;
+}
+
+.botones{
+    text-align: center;
+    padding: 30px;  
+}
+
+button {
+    width: 200px;  
+    padding: 20px;
+    margin: 1px 50px;
+    border: solid 1px rgb(57, 99, 235);
+    border-radius: 5px;
+    background-color:rgb(57, 99, 235);
+}
+
+
+/**************************************************CSS PARA LOS JAVASCRIP DINAMICOS*********************************************/
+img {
+    width: 230px;
+    align-items: center;
+}
+
+
+h3 {
+    padding: 20px 20px 10px 20px; 
+}
+
+p {
+    padding: 10px 20px 10px 20px;
+    text-align: justify;
+    font-size: small;
+}

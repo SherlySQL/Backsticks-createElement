@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+</head>
+<body>
+    
+
+    <script>
+        //*************************************************************************************************************************************************************************************************************************************************/
+        //EJERCICIO #1
+        //Paso 2: Realice otra hoja HTML llamada “Perfil” y recuperar con un console log todo el localstorage  “Datos”
+        let BD=JSON.parse(localStorage.getItem("Datos")) 
+        console.log(BD)
+    
+
+        //Notas:
+        //Con getItem recuperamos toda la información del localstorage "Datos"
+        //Pero esa información viene string, por ello es necesario usar Parse, para convertirla nuevamente en Objeto JSON
+        //Ahora en BD almacenamos toda la info del localstorage "Datos" en formato JSON
+    </script>
+
+    <script src="data.js"></script>
+    
+</body>
+</html>
